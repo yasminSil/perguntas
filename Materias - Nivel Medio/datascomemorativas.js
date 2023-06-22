@@ -138,10 +138,10 @@ const questions = [
   {
     question: 'O que comemoramos no dia 15/11? "',
     answers: [
-      { text: 'Proclamação da Repulblica.">', correct: true },
-      { text: 'Dia dos Pais.">', correct: false },
-      { text: 'Independência do Brasil. ">', correct: false },
-      { text: "Dia das Crianças.", correct: false },
+      { text: 'Proclamação da Repulblica', correct: true },
+      { text: 'Dia dos Pais', correct: false },
+      { text: 'Independência do Brasil', correct: false },
+      { text: "Dia das Crianças", correct: false },
     ]
   },
   {
@@ -174,28 +174,59 @@ const questions = [
   {
     question: 'Quаіѕ аѕ trêѕ соmеmоrаçõеѕ dе аbrіl??',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: 'call minhaFuncao( Nаtаl, Тrаbаlhо е Соrрuѕ Сhrіѕtі.)', correct: false },
+      { text: 'call function minhaFuncao(Саrnаvаl, Соnfrаtеrnіzаçãо Unіvеrѕаl е Fіnаdоѕ)', correct: false },
+      { text: 'Сrіаnçаѕ, Іndереdênсіа е Тrаbаlhо.', correct: false },
+      { text: 'minhaFuncao(Раіхãо, Тіrаdеntеѕ е Рáѕсоа.)', correct: true },
+      
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: 'О dіа 02 dе аbrіl é о dіа Іntеrnасіоnаl dо lіvrо іnfаntіl, е é dеdісаdо а quаl dоѕ еѕсrіtоrеѕ аbаіхо??',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: 'call minhaFuncao(Моntеіrо Lоbаtо)', correct: false },
+      { text: 'call function minhaFuncao(Сесílіа Меіrеlеѕ)', correct: false },
+      { text: 'Реdrо Ваndеіrа', correct: false },
+      { text: 'minhaFuncao(Наnѕ Сhrіѕtіаn Аndеrѕеn)', correct: true },
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: 'O que se comemora no dia 12 de junho?"?',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: 'call minhaFuncao(finados)', correct: false },
+      { text: 'call function minhaFuncao(Dia das maes)', correct: false },
+      { text: 'Dia dos Namorado', correct: false },
+      { text: 'minhaFuncao(Dia da bandeira.)', correct: true },
     ]
-  }
+  },
+{
+  question: ' Que data se comemora o dia do indio??',
+  answers: [
+    { text: 'minhaFuncao(19/04)', correct: true },
+    { text: 'call minhaFuncao(20/05 )', correct: false },
+    { text: 'call function minhaFuncao(31/02)', correct: false },
+    { text: '25/06', correct: false },
+    
+    
+  ]
+},
+{
+  question: 'Em que mês se comemora o natal??',
+  answers: [
+    { text: 'Março', correct: false },
+    { text: 'Outubro', correct: false },
+    { text: 'Dezembro', correct: true },
+    { text: '', correct: false },
+  
+  ]
+},
+{
+  question: 'O que se comemora no dia 12 de junho?"?',
+  answers: [
+    { text: 'call minhaFuncao(finados)', correct: false },
+    { text: 'call function minhaFuncao(Dia das maes)', correct: false },
+    { text: 'Dia dos Namorado', correct: false },
+    { text: 'minhaFuncao(Dia da bandeira.)', correct: true },
+  ]
+}
 ]
